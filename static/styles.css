@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(227, 255, 220);
+    color: rgb(0, 39, 10)
+}
+
+.board {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.success,
+.fail,
+.final,
+.record {
+    color: honeydew;
+    padding: 5px 0px 5px 20px;
+    width: 250px;
+}
+
+.success {
+    background-color: green;
+}
+
+.fail {
+    background-color: red;
+}
+
+.final {
+    background-color: #6161ff;
+}
+
+.record {
+    background-color: green;
+    font-size: 3rem;
+    width: 400px;
+
+}
